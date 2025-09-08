@@ -1,0 +1,8 @@
+In V0.5 Backup/index.html im <head> ergänzen (nach viewport):
+
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+Damit lässt sich die Member-App als PWA zum Homescreen hinzufügen (iOS/iPadOS).

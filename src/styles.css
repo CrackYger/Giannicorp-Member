@@ -1,0 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --safe-bottom: env(safe-area-inset-bottom, 0px); }
+.safe-bottom { padding-bottom: calc(56px + var(--safe-bottom)); }
+.tabbar-safe { height: calc(56px + var(--safe-bottom)); }
